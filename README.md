@@ -1,5 +1,7 @@
 ## Step 1: Extract Data Using Python and Uplode to Snowflake database
 
+## data_ingestion folder
+
 ### Requirements
 
 To install the required packages, run:
@@ -8,33 +10,25 @@ To install the required packages, run:
 pip install -r requirements
 ```
 
-```
+```sh
 python data_ingestion.py
 ```
 
-
 ### Connecting dbt to Snowflake
 
-```markdown
-## Step 2: Connect dbt to Snowflake
+
+### Step 2: Connect dbt to Snowflake
 
 ### Initialize dbt
-To initialize a new dbt project, run:
+### To initialize a new dbt project, run:
+
+
 ```sh
 dbt init
 ```
-your_project_name:
-  target: dev
-  outputs:
-    dev:
-      type: snowflake
-      account: your_account.snowflakecomputing.com
-      user: your_user
-      password: your_password
-      role: your_role
-      database: your_database
-      warehouse: your_warehouse
-      schema: your_schema
+
+
+## In dbt_demo folder
 
 ### test dbt connectivity with snowflake
 
@@ -46,4 +40,10 @@ dbt debug
 
 ```sh
 run dbt run
-```# s_pavan_DebtCollectionETL
+```
+
+### Improvements for the Future
+
+- **Using Python Functions:** Enhance the data extraction and loading processes by encapsulating them in reusable Python functions.
+- **Using Airflow:** Automate the ELT pipeline seamlessly by integrating Apache Airflow to manage and schedule data workflows.
+- **Using dbt Tests:** Implement dbt tests for data quality to ensure the integrity and reliability of your data models.
