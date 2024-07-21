@@ -1,0 +1,43 @@
+Brief Report on Loan Data Analysis
+
+1. Average Loan Amount for Borrowers More Than 5 Days Past Due:
+   The average loan amount for borrowers who are more than 5 days past due is 54683.156817.
+
+2. Top 10 Borrowers with the Highest Outstanding Balance:
+   The top 10 borrowers with the highest outstanding balance are:
+   NAME,OUTSTANDING_BALANCE
+    Adira Sekhon,99999
+    Neysa Ahluwalia,99985
+    Shlok Kothari,99944
+    Manikya Shroff,99944
+    Riya Gera,99931
+    Nishith Sarin,99896
+    Kartik Keer,99875
+    Vaibhav Sharaf,99851
+    Rasha Ratti,99844
+    Shamik Gaba,99834
+
+3. Borrowers with Good Repayment History:
+   The following borrowers have a good repayment history:
+   the data in good_repayment_history.csv
+
+4. Brief Analysis with Respect to Loan Type:
+   - Loan Type: Auto Loan
+     - Number of Borrowers: 1,660
+     - Average Loan Amount: 55,298.73
+     - Average Interest Rate: 0.2011
+     - Total EMI: 20,065,477.64
+   - Loan Type: Personal Loan
+     - Number of Borrowers: 1,680
+     - Average Loan Amount: 54,971.88
+     - Average Interest Rate: 0.2017
+     - Total EMI: 20,480,577.71
+   - Loan Type: Home Loan
+     - Number of Borrowers: 1,660
+     - Average Loan Amount: 55,613.11
+     - Average Interest Rate: 0.1992
+     - Total EMI: 21,272,835.88
+
+---
+
+This report provides a summary of the key findings from the analysis of the loan data.

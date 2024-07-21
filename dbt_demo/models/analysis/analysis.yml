@@ -1,0 +1,8 @@
+sources:
+  - name: db
+    database: dbt_db
+    schema: Public
+    tables:
+      - name: borrow
+        identifier: BORROWERS
+        
